@@ -1,0 +1,445 @@
+@charset "utf-8";
+
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        ul,
+        ol,
+        li,
+        td {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        #wrap {
+            height: auto;
+            position: relative;
+            margin: 0 auto;
+        }
+
+
+        /*헤더*/
+        header {
+            width: 100%;
+            height: 254px;
+            margin: 0 auto;
+        }
+
+        #top {
+            width: 100%;
+            height: 40px;
+            margin: 0 auto;
+            border-bottom: 1px solid #eaeaea;
+        }
+
+        #top_box {
+            width: 1260px;
+            height: 40px;
+            margin: 0 auto;
+        }
+
+        #login {
+            width: 567px;
+            height: 40px;
+            margin: 0 auto;
+            float: left;
+        }
+
+        #login>ul>li {
+            float: left;
+            margin: 5px 0 0 10px;
+            font-size: 12px;
+            padding: 5px 0px;
+        }
+
+        #login>ul>li>a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        #login>ul>li>a:hover {
+            color: #888888;
+        }
+
+        #commu {
+            width: 400px;
+            height: 40px;
+            margin: 0 auto;
+            float: right;
+        }
+
+        #commu>ul>li {
+            float: left;
+            margin: 5px 0 0 10px;
+            font-size: 12px;
+            padding: 5px 0px;
+        }
+
+        #commu>ul>li>a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        #commu>ul>li>a:hover {
+            color: #888888;
+        }
+
+        #commu>img {
+            width: 23px;
+            height: 23px;
+            margin: 8px 1px;
+        }
+
+
+        #logo_box {
+            width: 1260px;
+            height: 120px;
+            margin: 22px auto 0;
+        }
+
+        #member {
+            width: 265px;
+            height: 50px;
+            float: left;
+            margin: 35px 0 0 0px;
+        }
+
+        .member_icon1 {
+            width: 41px;
+            height: 51px;
+            float: left;
+        }
+
+        .member_icon2 {
+            width: 41px;
+            height: 51px;
+            float: left;
+            margin: 0 0 0 40px;
+        }
+
+        .member_icon3 {
+            width: 41px;
+            height: 51px;
+            float: left;
+            margin: 0 0 0 40px;
+        }
+
+        #logo {
+            width: 210px;
+            height: 70px;
+            float: left;
+            margin: 25px 0 0 240px;
+        }
+
+        /*서치 확인*/
+        #search {
+            width: 350px;
+            height: 58px;
+            float: right;
+            margin: 30px 0 0 0px;
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+
+        #search>input {
+            width: 210px;
+            height: 30px;
+            float: right;
+            font-family: Nanum Gothic;
+            font-size: 14px;
+            background-color: #2828281a;
+            outline: none;
+            border: none;
+            padding: 10px;
+            border-radius: 20px;
+        }
+
+        input::placeholder {
+            color: #fff;
+        }
+
+        #search>a>img {
+            color: #fff;
+            position: absolute;
+            right: 15px;
+            top: 9px;
+        }
+
+        select {
+            width: 210px;
+            float: right;
+            margin: 10px 0px;
+            border-radius: 10px;
+            padding: 0px 5px;
+            border: 1px solid #eee;
+            font-size: 13px;
+        }
+
+        /*nav*/
+        #nav_top {
+            width: 100%;
+            margin: 22px auto 0;
+            height: 50px;
+            border-top: 1px solid #eaeaea;
+            border-bottom: 1px solid #eaeaea;
+        }
+
+        nav {
+            width: 1154px;
+            height: 100%;
+            margin: 0 auto;
+        }
+
+        .menu {
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+
+        .menu>li {
+            float: left;
+            margin: 0 0 0 66px;
+            text-align: center;
+            font-size: 14px;
+            line-height: 50px;
+        }
+
+        .menu>li>a {
+            color: #000;
+            font-weight: bold;
+        }
+
+        .menu>li>a:hover {
+            color: #666;
+            box-shadow: inset 0 -3px 0 #666;
+            display: block;
+        }
+
+        .sub_menu {
+            position: absolute;
+            line-height: 30px;
+            z-index: 3;
+            text-align: left;
+            background-color: #fff;
+            width: 130px;
+            padding: 15px;
+            display: none;
+        }
+
+        .sub_menu>li {
+            font-size: 13px;
+        }
+
+        .sub_menu>li>a:hover {
+            background-color: #eee;
+            display: block;
+        }
+
+  /*하단*/
+        footer {
+            width: 100%;
+            height: 560px;
+            margin: 0 auto;
+            background-color: #eee;
+        }
+
+        #bottom {
+            width: 1260px;
+            height: 355px;
+            margin: 0 auto;
+        }
+
+        /*하단 cs 박스*/
+        #bottom .cs_box {
+            width: 380px;
+            height: 355px;
+            float: left;
+            margin: 0px 20px;
+            padding: 40px;
+        }
+
+        .cs_box h3 {
+            font-size: 24px;
+        }
+
+        .cs_box .line {
+            width: 100%;
+            height: 45px;
+
+        }
+
+        .cs_box h5 {
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .cs_box p {
+            font-size: 12px;
+            padding: 10px 0 0 0px;
+        }
+
+        .btn1 {
+            width: 145px;
+            height: 40px;
+            background-color: #000;
+            color: #fff;
+            font-size: 14px;
+            margin: 30px 0px;
+            cursor: pointer;
+            border: none;
+        }
+
+        .cs_icon {
+            width: 95px;
+            height: 115px;
+            float: left;
+            margin: 5px 0 0 4px;
+            border: 1px solid #8e8e8e;
+            background-color: #fff;
+        }
+
+        .cs_icon img {
+            width: 32px;
+            height: 32px;
+            margin: 20px 30px 5px 30px;
+        }
+
+        .cs_icon>button {
+            font-size: 10px;
+            display: block;
+            margin: 0 auto;
+            padding: 2px 6px;
+            color: #747474;
+            border: 1px #eaeaea solid;
+            border-radius: 4px;
+        }
+
+        .cs_icon>span {
+            display: block;
+            text-align: center;
+        }
+
+        .cs_icon>span>a {
+            font-size: 10px;
+            text-decoration: none;
+            color: #000;
+        }
+
+        /*하단 내비 박스*/
+        #bottom_nav_box {
+            width: 100%;
+            height: 40px;
+            background-color: #353535;
+            color: #fff;
+        }
+
+        #bottom_menu {
+            width: 1260px;
+            height: 60px;
+            margin: 0 auto;
+
+        }
+
+        #bottom_menu>ul>li {
+            float: left;
+            margin: 10px 0 0 10px;
+            font-size: 14px;
+        }
+
+        #bottom_menu>ul>li>a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        /*하단 호스트*/
+        #bottom_box {
+            width: 1260px;
+            height: 110px;
+            margin: 30px auto 0;
+        }
+
+
+        #host {
+            width: 660px;
+            height: 110px;
+            font-size: 11px;
+            color: #757575;
+            float: left;
+        }
+
+        #host2 {
+            width: 350px;
+            height: 110px;
+            float: right;
+        }
+
+
+        .host_box1 {
+            width: 240px;
+            height: 45px;
+            float: left;
+
+        }
+
+        .host_box1>img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .host_box2 {
+            width: 92px;
+            height: 45px;
+            float: left;
+            margin: 0 0 0 10px;
+        }
+
+        .host_box2>img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .host_box3 {
+            width: 105px;
+            height: 20px;
+            float: left;
+            margin: 20px 0 0 20px;
+        }
+
+        .host_box3>img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .host_box4 {
+            width: 85px;
+            height: 20px;
+            float: left;
+            margin: 20px 0 0 20px
+        }
+
+        .host_box4>img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .host_box5 {
+            width: 71px;
+            height: 20px;
+            float: left;
+            margin: 20px 0 0 20px
+        }
+
+        .host_box5>img {
+            width: 100%;
+            height: 100%;
+        }

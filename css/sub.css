@@ -1,0 +1,1001 @@
+/*서브*/
+        #sub {
+            width: 1200px;
+            height: 720px;
+            margin: 0 auto;
+        }
+
+        #submenu_back {
+            width: 1200px;
+            height: 20px;
+            margin: 15px 0 30px;
+        }
+
+        #submenu {
+            width: 220px;
+            height: 20px;
+            float: right;
+        }
+
+        #submenu>ol {
+            font-size: 14px;
+            font-family: Nanum Gothic;
+        }
+
+        #submenu>ol>li {
+            float: left;
+            margin: 0 0 0 5px;
+            display: inline-block;
+        }
+
+        #submenu>ol>li>a {
+            text-decoration: none;
+            color: #000;
+
+        }
+
+        #content {
+            width: 1200px;
+            height: 657px;
+        }
+
+        /*서브 테이블 옆 이미지*/
+        #product>li {
+            float: left;
+            margin: 5px 10px 0 0;
+        }
+
+        #product>li:hover {
+            cursor: pointer;
+        }
+
+        #product {
+            width: 500px;
+            height: 647px;
+            float: left;
+        }
+
+        #product_box {
+            width: 500px;
+            height: 120px;
+            margin: 0 auto;
+        }
+
+        .p1 {
+            width: 500px;
+            height: 500px;
+        }
+
+
+        #product_box img {
+            width: 85px;
+            height: 85px;
+            float: left;
+            margin: 5px 7.5px;
+        }
+
+        /*.box1>img { width: 100%; height: 100%; }*/
+
+        /*상품 결제 정보 테이블*/
+        #context {
+            width: 560px;
+            height: 647px;
+            float: right;
+            padding: 10px;
+        }
+
+       #context>.table1 {
+            width: 535px;
+        }
+
+        .table1 th {
+            font-size: 16px;
+            margin: 15px 0px;
+            padding: 10px 10px 10px 5px;
+            text-align: left;
+        }
+
+        .table1 td {
+            height: 40px;
+            text-align: left;
+            font-size: 12px;
+            padding: 7px 25px;
+
+        }
+
+        .t1 {
+            border-bottom: 1px solid #dedcdc;
+        }
+
+        #context>.table1 td:first-child {
+            width: 150px;
+            padding: 5px;
+        }
+
+        #select {
+            width: 70px;
+            height: 20px;
+            float: left;
+            margin: 5px 0 0 0px;
+            font-family: "돋움";
+            font-size: 13px;
+            color: #666;
+            border: 1px solid #eee;
+            padding: 0px 0 0 10px;
+        }
+
+        .table2 {
+            width: 535px;
+            border-spacing: 0;
+            border-top: 1px solid #dedcdc;
+            border-bottom: 1px solid #999;
+        }
+
+        .table2 td:first-child {
+            text-align: left;
+            font-size: 12px;
+            font-weight: normal;
+            padding: 7px 7px;
+        }
+
+        .table2 td:nth-child(2) {
+            text-align: center;
+            font-size: 12px;
+            font-weight: normal;
+            padding: 7px 5px;
+        }
+
+        .table2 td:last-child {
+            text-align: right;
+            font-size: 12px;
+            font-weight: normal;
+            padding: 7px 8px;
+        }
+
+
+        .table2 #select {
+            margin: 0 0 0px 50px;
+            width: 60px;
+        }
+
+        .table3 {
+            width: 100%;
+            border-bottom: 1px solid #dedcdc;
+        }
+
+        .table4 {
+            width: 100%;
+        }
+
+        .table3 td {
+            text-align: right;
+            font-size: 16px;
+            font-weight: normal;
+            padding: 15px 10px;
+        }
+
+        .table4 td {
+            text-align: right;
+            font-size: 12px;
+            font-weight: normal;
+            padding: 5px 10px;
+            color: #666;
+        }
+
+
+        /*상품 결제 관련 버튼*/
+        #button_box1 {
+            width: 540px;
+        }
+
+        #button_box1>button {
+            width: 176px;
+            height: 55px;
+            border-radius: 5px;
+            font-size: 14px;
+            font-weight: bold;
+
+        }
+
+        #button_box1>button:first-child {
+
+            padding: 10px;
+            border: 0;
+            background-color: #333;
+            color: #fff;
+        }
+
+        #button_box1>button:first-child:hover {
+            background-color: black;
+            transition: all 0.5s;
+        }
+
+
+        #button_box1>button:nth-child(2) {
+            padding: 10px;
+            color: #333;
+            background-color: #fff;
+            border: 1px solid #ddd;
+        }
+
+        #button_box1>button:nth-child(2):hover {
+            border: 1px solid black;
+        }
+
+        #button_box1>button:nth-child(3) {
+            padding: 10px;
+            color: #333;
+            background-color: #fff;
+            border: 1px solid #ddd;
+        }
+
+
+        #button_box1>button:nth-child(3):hover {
+            border: 1px solid black;
+        }
+
+        #button_box1>#button_box2 {
+            width: 310px;
+            height: 100px;
+            margin: 10px 0px 0px 0px;
+            border-top: 2px solid black;
+            float: right;
+
+        }
+
+        #button_box2>#b1 {
+            width: 110px;
+            height: 50px;
+            float: left;
+            font-size: 10px;
+            margin: 7px 0 0 0px;
+        }
+
+        #b1>.naver {
+            color: #2DB400;
+        }
+
+        #b1>.npay {
+            font-size: 10px;
+        }
+
+        #button_box2>a>#bt1 {
+            width: 151px;
+            height: 37px;
+            background-color: #2DB400;
+            float: left;
+            margin: 10px 5px 0 5px;
+        }
+
+        #bt1>img {
+            width: 100%;
+            height: 100%;
+        }
+
+        #button_box2>a>#bt2 {
+            width: 37px;
+            height: 37px;
+            background-color: #fff;
+            float: left;
+            text-align: center;
+            margin: 10px 0 0 0px;
+            border: 1px solid #ddd;
+        }
+
+        #bt2>span {
+            font-size: 12px;
+            color: #2DB400;
+            margin: 9px 0 0 0px;
+            display: block;
+        }
+
+        /*서브 섹션 시작*/
+        #detail {
+            width: 1260px;
+            height: 13500px;
+            margin: 0 auto;
+            padding: 50px 0px;
+
+        }
+
+        #detail>ul {
+            width: 1200px;
+            height: 50px;
+            margin: 0 auto;
+        }
+
+        #detail>ul>li {
+            width: 300px;
+            height: 100%;
+            background-color: #efefef;
+            float: left;
+            text-align: center;
+            padding: 15px 0 0 0px;
+            border: 1px solid #ddd;
+            border-bottom: 1px solid #000;
+            font-size: 13px;
+        }
+
+        ul>li>a {
+            color: #000;
+        }
+
+        #detail>ul>li:first-child {
+            background-color: #fff;
+            color: #000;
+            border: 1px solid #000;
+            border-bottom: none;
+        }
+
+        /*본문 시작 이미지*/
+        #start_img1 {
+            width: 1200px;
+            height: 1300px;
+            margin: 100px auto;
+        }
+
+        #start_img1>img {
+            width: 1000px;
+            height: 1290px;
+            margin: 0 auto;
+            display: block;
+        }
+
+        /*서브 1 구간*/
+        #sub_section1 {
+            width: 990px;
+            height: 1040px;
+            margin: 150px auto 0;
+            background-color: #f6f6f6;
+        }
+
+        #sub_section1>h5 {
+            text-align: center;
+            padding: 80px 0 40px 0px;
+        }
+
+        #sub_section1>p {
+            font-size: 35px;
+            text-align: center;
+        }
+
+        #sub_section1>h1 {
+            font-size: 45px;
+            text-align: center;
+            padding: 5px 0px;
+        }
+
+        .sub1 {
+            border-right: 2px solid black;
+            width: 500px;
+            height: 100px;
+            margin: 20px 0 0 0px;
+        }
+
+        #sub_section1>#img_b_box {
+            width: 830px;
+            height: 400px;
+            margin: 10px auto 0;
+        }
+
+        #img_b_box>.img_box {
+            width: 382px;
+            height: 354px;
+            float: left;
+            margin: 20px 0 0 25px;
+        }
+
+        #sub_section1>.img_box:last-child {
+            width: 382px;
+            height: 354px;
+            float: right;
+            margin: 20px 20px 0 0px;
+        }
+
+        #sub_section1>.img_box>img {
+            width: 100%;
+            height: 100%;
+        }
+
+        #p_box>p {
+            text-align: center;
+            display: inline-block;
+            margin: 50px 120px;
+        }
+
+        /*서브 2 구간*/
+        #sub_section2 {
+            width: 990px;
+            height: 1850px;
+            margin: 150px auto 0;
+        }
+
+        .sectoin2_hr {
+            display: flex;
+            flex-basis: 100%;
+            align-items: center;
+            color: rgba(0, 0, 0, 0.35);
+            font-size: 15px;
+            padding: 15px;
+        }
+
+        .sectoin2_hr::before,
+        .sectoin2_hr::after {
+            content: "";
+            flex-grow: 1;
+            background: rgba(0, 0, 0, 0.35);
+            height: 1px;
+            font-size: 0px;
+            line-height: 0px;
+            margin: 0px 16px;
+        }
+
+        #sub_section2>p:first-child {
+            font-size: 15px;
+            text-align: center;
+            padding: 10px;
+        }
+
+        #sub_section2>p:nth-child(3) {
+            font-size: 20px;
+            text-align: center;
+            padding: 0 0 50px 0px;
+        }
+
+        #sub_section2>h1 {
+            font-size: 60px;
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            padding: 40px 0 20px 0px;
+        }
+
+        #sub_section2>p {
+            font-size: 21px;
+            margin: 0px 80px;
+            padding: 0 0 50px 0px;
+        }
+
+        #sub_section2 span {
+            font-weight: bold;
+        }
+
+
+
+        #sub_section2>img {
+            margin: 0px 50px;
+        }
+
+        /*서브 3 구간*/
+        #sub_section3 {
+            width: 990px;
+            height: 204px;
+            margin: 0 auto;
+            background-color: #f8f8f8;
+        }
+
+        #sub_section3>p {
+            font-size: 20px;
+            text-align: center;
+            padding: 50px;
+            line-height: 1.8em
+        }
+
+
+        /*서브 4 구간*/
+        #sub_section4 {
+            width: 1050px;
+            height: 1700px;
+            margin: 150px auto 0;
+        }
+
+        #sub_section4_box1 {
+            width: 999px;
+            height: 590px;
+            ;
+            margin: 0 auto;
+            padding: 20px 0 0 0px;
+        }
+
+        #sub_section4_box2 {
+            width: 819px;
+            height: 583px;
+            margin: 20px auto 0;
+        }
+
+        #sub_section4_box1>img {
+            width: 100%;
+            height: 100%;
+        }
+
+        #sub_section4_box2>img {
+            width: 100%;
+            height: 100%;
+        }
+
+        #text4_box1 {
+            width: 1000px;
+            height: 40px;
+            background-color: #033f5b;
+            margin: 0 auto;
+        }
+
+        #text4_box1>p {
+            color: #fff;
+            text-align: center;
+            padding: 5px 0px;
+            font-size: 18px;
+        }
+
+        #text4_box2 {
+            width: 1000px;
+            height: 310px;
+            background-color: #ebebeb;
+            margin: 0 auto;
+        }
+
+        #text4_box2>h1 {
+            font-weight: bold;
+            text-align: center;
+            padding: 50px 0 20px 0px;
+        }
+
+        #text4_box2>p {
+            text-align: center;
+            line-height: 1.8em;
+            font-size: 18px;
+        }
+
+        /*서브 5 구간*/
+        #sub_section5 {
+            width: 1050px;
+            height: 1280px;
+            margin: 0 auto;
+        }
+
+        #section5_box1 {
+            width: 1000px;
+            height: 555px;
+            margin: 0 auto;
+            padding: 20px 0 0 0px;
+        }
+
+        #section5_box1>img {
+            width: 100%;
+            height: 100%;
+        }
+
+        #section5_box2 {
+            width: 495px;
+            height: 545px;
+            margin: 10px 0 0 25px;
+            float: left;
+        }
+
+        #section5_box2>img {
+            width: 100%;
+            height: 100%;
+        }
+
+        #section5_box3 {
+            width: 495px;
+            height: 545px;
+            margin: 10px 25px 0 0px;
+            float: right;
+        }
+
+        #section5_box3>img {
+            width: 100%;
+            height: 100%;
+        }
+
+        /*서브 6 구간*/
+        #sub_section6 {
+            width: 1050px;
+            height: 1000px;
+            margin: 0 auto;
+        }
+
+        #sub_section6>p:first-child {
+            text-align: center;
+            font-size: 30px;
+            padding: 70px 0 0 0px;
+        }
+
+        #sub_section6>p {
+            text-align: center;
+            font-size: 18px;
+            padding: 10px 0 40px 0px;
+        }
+
+        #section6_img_box {
+            width: 890px;
+            height: 615px;
+
+            margin: 0 auto;
+        }
+
+        #section6_img>img {
+            width: 100%;
+            height: 100%;
+        }
+
+        /*서브 7 구간*/
+        #sub_section7 {
+            width: 1050px;
+            height: 1650px;
+            margin: 0 auto;
+        }
+
+        #section7_img {
+            width: 1000px;
+            height: 585px;
+            margin: 0 auto;
+        }
+
+        #section7_img>img {
+            width: 100%;
+            height: 100%;
+        }
+
+        #sub_section7>p:first-child {
+            text-align: center;
+            font-size: 22px;
+        }
+
+        #sub_section7>p {
+            text-align: center;
+            font-size: 45px;
+        }
+
+        #sub_section7>table {
+            border-top: 5px solid #e9e7db;
+            border-bottom: 5px solid #e9e7db;
+            width: 1050px;
+            height: 600px;
+            font-size: 13px;
+            border-collapse: collapse;
+        }
+
+        #sub_section7>table th {
+            border-bottom: 1px solid #e9e7db;
+            padding: 20px;
+        }
+
+        #sub_section7>table td {
+            border-bottom: 1px solid #e9e7db;
+            line-height: 1.6em;
+        }
+
+        #sub_section7>ul {
+            display: block;
+            width: 1050px;
+            padding: 30px 50px;
+        }
+
+        #sub_section7>h4{
+            font-size: 18px;
+            padding:50px 0 0 50px ;
+        }
+
+        #sub_section7>ul>li {
+            font-size: 13px;
+            line-height: 1.8em;
+        }
+
+        #sub_section7>ul>li::before {
+            content: " · ";
+        }
+
+
+        /*exchange 안내사항*/
+        #exchange {
+            width: 1050px;
+            height: 1000px;
+            border-top: 3px solid #2d2d2d;
+            margin: 0 auto;
+            background-color: #fafafa;
+        }
+
+        #exchange>h1 {
+            text-align: center;
+            padding: 30px;
+        }
+
+        #exchange>h3 {
+            font-size: 20px;
+            padding: 50px 0 0 50px;
+        }
+
+        #exchange>ul {
+            font-size: 20px;
+            display: block;
+            width: 1050px;
+            padding: 20px 50px 0px;
+        }
+
+        #exchange>ul>li {
+            font-size: 13px;
+            line-height: 1.6em;
+        }
+
+        #exchange>ul:nth-of-type(2) {
+            padding:20px 50px 50px;
+        }
+
+        #exchange>ul>li::before {
+            content: " · ";
+        }
+
+        #exchange>ol {
+            font-size: 20px;
+            display: block;
+            width: 1050px;
+            padding: 7px 50px 50px 50px;
+        }
+
+        #exchange>ol>li {
+            font-size: 13px;
+            padding:13px 0;
+        }
+
+        /*CS 메뉴2*/
+        #product_menu {
+            width: 1260px;
+            height: 1600px;
+            margin: 150px auto 0;
+        }
+
+        #shipping {
+            width: 1200px;
+            height: 500px;
+            margin: 0 auto;
+        }
+
+        #shipping>ul {
+            width: 1200px;
+            height: 50px;
+            margin: 40px auto 0px;
+        }
+
+        #shipping>ul>li {
+            width: 300px;
+            height: 100%;
+            background-color: #efefef;
+            float: left;
+            text-align: center;
+            padding: 15px 0 0 0px;
+            border: 1px solid #ddd;
+            border-bottom: 1px solid #000;
+            font-size: 13px;
+        }
+
+        #shipping>ul>li>a {
+            color: #000;
+        }
+
+        #shipping>ul>li:nth-child(2) {
+            background-color: #fff;
+            border: 1px solid #000;
+            border-bottom: none;
+            color: #000;
+        }
+
+        #shipping>h2 {
+            float: left;
+            padding: 50px 20px 0px;
+            font-size: 19px;
+        }
+
+        #shipping>#shipping_text {
+            width: 100%;
+            height: 270px;
+        }
+
+        #shipping>#shipping_text>ul {
+            display: block;
+            width: 1100px;
+            height: 280px;
+            margin: 100px 35px 0px;
+        }
+
+        #shipping>#shipping_text>ul>li {
+            font-size: 13px;
+            list-style: disc;
+            margin: 7px 10px;
+            color: #666;
+        }
+
+
+        /*CS 메뉴3*/
+        #review {
+            width: 1200px;
+            height: 500px;
+            margin: 0 auto;
+        }
+
+        #review ul {
+            width: 1200px;
+            height: 50px;
+            margin: 40px auto 0px;
+        }
+
+        #review ul>li {
+            width: 300px;
+            height: 100%;
+            background-color: #efefef;
+            float: left;
+            text-align: center;
+            padding: 15px 0 0px 0px;
+            border: 1px solid #ddd;
+            border-bottom: 1px solid #000;
+            font-size: 13px;
+        }
+
+        ul>li>a {
+            color: #000;
+        }
+
+        #review_box table th {
+            width: 80px;
+            border-bottom: 1px solid #eee;
+            color: #333
+        }
+
+        #review_box table td:first-of-type {
+            width: 770px;
+            border-bottom: 1px solid #eee;
+        }
+
+        #review_box table td:first-of-type>a {
+            color: #333;
+        }
+
+        #review_box table td:nth-of-type(2) {
+            width: 80px;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+        }
+
+        #review_box table td:nth-of-type(3) {
+            width: 120px;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+        }
+
+        #review_box table td:last-of-type {
+            width: 150px;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+        }
+
+        #review>ul>li:nth-child(3) {
+            background-color: #fff;
+            border: 1px solid #000;
+            border-bottom: none;
+        }
+
+        #review>#review_box>button {
+            float: right;
+            margin: 25px 0px;
+            width: 120px;
+            height: 40px;
+            color: #fff;
+            font-size: 12px;
+            background-color: #333;
+            border: 1px solid #ddd;
+
+        }
+
+        #review>#review_box>button:hover {
+            cursor: pointer;
+        }
+
+        #review>#review_box>table {
+            display: inline-block;
+            margin: 0px auto;
+            border-top: 1px solid #333;
+            line-height: 50px;
+            width: 1200px;
+            font-size: 13px;
+            color: #333;
+        }
+
+        /*CS 메뉴4*/
+        #inquiry {
+            width: 1200px;
+            height: 500px;
+            margin: 0 auto;
+        }
+
+        #inquiry ul {
+            width: 1200px;
+            height: 50px;
+            margin: 40px auto 0px;
+        }
+
+        #inquiry ul>li {
+            width: 300px;
+            height: 100%;
+            background-color: #efefef;
+            float: left;
+            text-align: center;
+            padding: 15px 0 0 0px;
+            border: 1px solid #ddd;
+            border-bottom: 1px solid #000;
+            font-size: 13px;
+        }
+
+        ul>li>a {
+            color: #000;
+        }
+
+        #inquiry_box table th {
+            width: 80px;
+            border-bottom: 1px solid #eee;
+            color: #333
+        }
+
+        #inquiry_box table td:first-of-type {
+            width: 770px;
+            border-bottom: 1px solid #eee;
+        }
+
+        #inquiry_box table td:first-of-type>a {
+            color: #333;
+        }
+
+        #inquiry_box table td:nth-of-type(2) {
+            width: 80px;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+        }
+
+        #inquiry_box table td:nth-of-type(3) {
+            width: 120px;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+        }
+
+        #inquiry_box table td:last-of-type {
+            width: 150px;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+        }
+
+        #inquiry>ul>li:last-child {
+            background-color: #fff;
+            border: 1px solid #000;
+            border-bottom: none;
+        }
+
+        #inquiry>#inquiry_box {
+            width: 1200px;
+            height: 450px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        #inquiry>#inquiry_box>button {
+            float: right;
+            margin: 25px 0px;
+            width: 120px;
+            height: 40px;
+            color: #fff;
+            font-size: 12px;
+            background-color: #333;
+            border: 1px solid #ddd;
+        }
+
+        #inquiry>#inquiry_box>button:hover {
+            cursor: pointer;
+        }
+
+        #inquiry>#inquiry_box>table {
+            display: inline-block;
+            margin: 0px auto;
+            border-top: 1px solid #333;
+            line-height: 50px;
+            width: 1200px;
+            font-size: 13px;
+            color: #333;
+        }
