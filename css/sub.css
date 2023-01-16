@@ -74,8 +74,6 @@
             margin: 5px 7.5px;
         }
 
-        /*.box1>img { width: 100%; height: 100%; }*/
-
         /*상품 결제 정보 테이블*/
         #context {
             width: 560px;
@@ -83,105 +81,67 @@
             float: right;
             padding: 10px;
         }
-
-       #context>.table1 {
+    
+        .context_table {
+            border-collapse: collapse;
             width: 535px;
         }
 
-        .table1 th {
-            font-size: 16px;
-            margin: 15px 0px;
-            padding: 10px 10px 10px 5px;
-            text-align: left;
-        }
-
-        .table1 td {
+        .context_table td {
             height: 40px;
-            text-align: left;
             font-size: 12px;
-            padding: 7px 25px;
-
+            padding:0 5px;
+        }
+    
+        .context_s_table td:nth-of-type(2) {
+            text-align: center;
         }
 
-        .t1 {
-            border-bottom: 1px solid #dedcdc;
+        .context_s_table td:last-child {
+            text-align: right;
         }
-
-        #context>.table1 td:first-child {
-            width: 150px;
-            padding: 5px;
-        }
-
-        #select {
-            width: 70px;
+    
+        .select {
+            width: 60px;
             height: 20px;
-            float: left;
-            margin: 5px 0 0 0px;
             font-family: "돋움";
             font-size: 13px;
             color: #666;
             border: 1px solid #eee;
-            padding: 0px 0 0 10px;
+            padding: 0px 0 0 20px;
+            border-radius: 10px;
         }
-
-        .table2 {
-            width: 535px;
-            border-spacing: 0;
-            border-top: 1px solid #dedcdc;
-            border-bottom: 1px solid #999;
-        }
-
-        .table2 td:first-child {
+    
+        .context_table th {
             text-align: left;
-            font-size: 12px;
-            font-weight: normal;
-            padding: 7px 7px;
+            font-size: 16px;
+            margin: 15px 0px;
+            padding: 10px 10px 10px 5px;
         }
-
-        .table2 td:nth-child(2) {
-            text-align: center;
-            font-size: 12px;
-            font-weight: normal;
-            padding: 7px 5px;
-        }
-
-        .table2 td:last-child {
-            text-align: right;
-            font-size: 12px;
-            font-weight: normal;
-            padding: 7px 8px;
-        }
-
-
-        .table2 #select {
-            margin: 0 0 0px 50px;
-            width: 60px;
-        }
-
-        .table3 {
-            width: 100%;
+    
+        .context_table .table_line {
             border-bottom: 1px solid #dedcdc;
         }
-
-        .table4 {
-            width: 100%;
+    
+        .context_table .bold_line {
+            border-top: 1px solid #999;
+            border-bottom: 1px solid #dedcdc;
         }
-
-        .table3 td {
+    
+        .context_table tr:nth-child(8) td {
+            height:50px;
             text-align: right;
             font-size: 16px;
             font-weight: normal;
-            padding: 15px 10px;
         }
-
-        .table4 td {
+    
+        .context_table tr:nth-child(9) td {
+            height:30px;
             text-align: right;
             font-size: 12px;
             font-weight: normal;
-            padding: 5px 10px;
             color: #666;
         }
-
 
         /*상품 결제 관련 버튼*/
         #button_box1 {

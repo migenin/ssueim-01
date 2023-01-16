@@ -75,7 +75,7 @@
                     <input name="search" placeholder="Search">
                     <a href="#"><img src="img/search.png" alt=""></a>
 
-                    <select>
+                    <select id="select">
                         <option value="홈세트">홈세트</option>
                         <option value="면기">면기</option>
                         <option value="커트러리">커트러리</option>
@@ -260,42 +260,42 @@
             </script>
             <!--서브 테이블-->
             <div id="context">
-                <table class="table1">
-                    <tr>
-                        <th colspan="2" class="t1">키엘로 4인 홈세트 26P</th>
-                    </tr>
+                <table class="context_table">
 
+                    <tr class="table_line">
+                        <th colspan="3">키엘로 4인 홈세트 26P</th>
+                    </tr>
+        
                     <tr>
                         <td>판매가</td>
                         <td><del>216,000원</del> 128,000원</td>
                     </tr>
-
+        
                     <tr>
                         <td>상품코드</td>
                         <td>P0000JDO</td>
                     </tr>
-
+        
                     <tr>
                         <td>적립금</td>
                         <td>5,120원</td>
                     </tr>
-
-                    <tr>
+        
+                    <tr class="table_line">
                         <td>배송비</td>
                         <td>3,000원 (50,000원 이상 구매 시 무료)</td>
                     </tr>
-                </table>
-                <table class="table2">
-                    <tr>
+        
+                    <tr class="context_s_table">
                         <td>상품명</td>
                         <td>수량</td>
                         <td>가격</td>
                     </tr>
-
-                    <tr>
+        
+                    <tr class="context_s_table">
                         <td>키엘로 4인 홈세트 26P</td>
                         <td>
-                            <select name="select" id="select">
+                            <select name="select" class="select">
                                 <option>1</option>
                                 <option>2</option>
                                 <option>3</option>
@@ -306,17 +306,14 @@
                         <td>128,000원<br>
                             ( mileage : 5,120원 )</td>
                     </tr>
-                </table>
-
-                <table class="table3">
-                    <tr>
-                        <td><b>128,000원</b>(1개)</td>
+        
+        
+                    <tr class="bold_line">
+                        <td colspan="3"><b>128,000원</b>(1개)</td>
                     </tr>
-                </table>
-
-                <table class="table4">
+        
                     <tr>
-                        <td>( 최소주문수량 1개 이상 )</td>
+                        <td colspan="3">( 최소주문수량 1개 이상 )</td>
                     </tr>
                 </table>
 
